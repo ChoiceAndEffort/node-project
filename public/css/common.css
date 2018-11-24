@@ -1,0 +1,63 @@
+@charset "UTF-8";
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #CCC;
+}
+body .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* 头部 */
+  /* 内容 */
+  /* 尾部 */
+}
+body .container .lv-head {
+  height: 50px;
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container .lv-head .left .logo {
+  font-size: 26px;
+  text-decoration: none;
+}
+body .container .lv-head .right {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-right: 10px;
+}
+body .container .lv-head .right p {
+  margin-right: 10px;
+}
+body .container .lv-main {
+  flex: 1;
+  display: flex;
+  background: white;
+}
+body .container .lv-main .lv-menu {
+  width: 250px;
+  height: 100%;
+  overflow-y: auto;
+  border-right: 1px solid #000;
+}
+body .container .lv-main .lv-menu li {
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-bottom: 1px solid #000;
+}
+body .container .lv-main .body {
+  flex: 1;
+  padding: 0 20px;
+}
+body .container .lv-footer {
+  height: 50px;
+  border-top: 1px solid #000;
+}
+
+/*# sourceMappingURL=common.css.map */

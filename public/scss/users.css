@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*************   引用样式修改分割线***************** */
+.table-hover > tbody > tr:hover {
+  background-color: #3ac7cc;
+}
+
+.pagination {
+  float: right;
+}
+
+/*# sourceMappingURL=users.css.map */
