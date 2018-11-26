@@ -1,1 +1,7 @@
 /* S首页样式 */
+.body{
+  
+    background: url("/images/shouye.jpg") no-repeat;
+    background-position: center;
+   
+}

@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+}
+
+.log-box {
+  height: 100%;
+  background: url("/images/logbj.jpg");
+}
+.log-box .log {
+  width: 250px;
+  height: 500px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=login.css.map */

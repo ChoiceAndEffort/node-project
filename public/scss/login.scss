@@ -1,0 +1,84 @@
+html,body{
+    height: 100%;
+}
+body{
+    background: url("/images/logbj.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.log-box{
+      width: 450px;
+      height:auto;
+      border:1px solid #ccc;
+    border-radius: 10px;
+    form{
+        input{
+            outline: none;
+             border: none;
+            background:none;
+
+        }
+        h2{
+            margin-top:40px;
+            text-align: center;
+            font-size: 25px;
+        }
+        label{
+            margin-left: 50px;
+            margin-top:40px;    
+            border:1px solid #ccc;      
+           
+        };
+        label:first-of-type{
+            background: #ccc; 
+          
+        }
+        #user-notice{
+            font-size: 10px;
+            font-weight: 600;
+            display: none;
+        }
+        .userOk{
+            display: none;
+        }
+        .userNg{
+            display: none;
+        }
+       label:nth-of-type(2){
+        background: #ccc;
+         }
+         #pwd-notice{
+            font-size: 10px;
+            font-weight: 600;
+            display: none;
+            
+        }
+        .pwdOk{
+            display: none;
+        }
+        .pwdNg{
+            display: none;
+        }
+        label:last-of-type{
+         
+            padding-left: 120px;
+            border:none;
+            button{
+                width: 100px;
+                border-radius: 3px;
+                border:none;
+                text-align: center;
+                height: 25px;
+                line-height: 25px;
+            }
+        }
+    
+    }
+    
+
+    
+       
+
+}

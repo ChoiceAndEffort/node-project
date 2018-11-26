@@ -1,14 +1,25 @@
 /*************   引用样式修改分割线***************** */
-
-.search-bar{
-    margin:15px 0;
+.body{
+    background: url("/images/timg.jpg") no-repeat;
+    background-position:right bottom;
+    .search-bar{
+        margin:15px 0;
+    }
+    .table-hover>tbody>tr:hover {
+        background-color: #3ac7cc;
+    }
+    
+    .table{
+        text-align: center;
+       
+    }
+    .pagination{
+        float: right;
+    }
+    
 }
 
 
-.table-hover>tbody>tr:hover {
-    background-color: #3ac7cc;
-}
 
-.pagination{
-    float: right;
-}
+
+

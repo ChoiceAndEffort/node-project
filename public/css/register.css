@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url("/images/logbj.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.log-box {
+  width: 450px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.log-box form input {
+  outline: none;
+  border: none;
+  background: none;
+}
+.log-box form h2 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 25px;
+}
+.log-box form label {
+  margin-left: 50px;
+  margin-top: 40px;
+  border: 1px solid #ccc;
+}
+.log-box form label:first-of-type {
+  background: #ccc;
+}
+.log-box form #user-notice {
+  font-size: 10px;
+  font-weight: 600;
+  display: none;
+}
+.log-box form .userOk {
+  display: none;
+}
+.log-box form .userNg {
+  display: none;
+}
+.log-box form label:nth-of-type(2) {
+  background: #ccc;
+}
+.log-box form #pwd-notice {
+  font-size: 10px;
+  font-weight: 600;
+  display: none;
+}
+.log-box form .pwdOk {
+  display: none;
+}
+.log-box form .pwdNg {
+  display: none;
+}
+.log-box form label:last-of-type {
+  padding-left: 120px;
+  border: none;
+}
+.log-box form label:last-of-type button {
+  width: 100px;
+  border-radius: 3px;
+  border: none;
+  text-align: center;
+  height: 25px;
+  line-height: 25px;
+}
+
+/*# sourceMappingURL=register.css.map */

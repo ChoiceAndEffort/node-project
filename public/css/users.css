@@ -1,14 +1,19 @@
 @charset "UTF-8";
 /*************   引用样式修改分割线***************** */
-.search-bar {
+.body {
+  background: url("/images/timg.jpg") no-repeat;
+  background-position: right bottom;
+}
+.body .search-bar {
   margin: 15px 0;
 }
-
-.table-hover > tbody > tr:hover {
+.body .table-hover > tbody > tr:hover {
   background-color: #3ac7cc;
 }
-
-.pagination {
+.body .table {
+  text-align: center;
+}
+.body .pagination {
   float: right;
 }
 

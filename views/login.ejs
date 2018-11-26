@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登陆</title>
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+
+<body>
+    <div class="log-box">
+
+        <form action="/index.html" method="">
+
+            <h2>用户登陆</h2>
+            <label>
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>：
+                <input type="text" placeholder=" 用户名">
+            </label>
+            <span id="user-notice">请输入2-6位字符</span>
+            <span class="glyphicon glyphicon-ok-circle userOk" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-remove-circle userNg" aria-hidden="true"></span>
+            <br>
+            <label>
+                <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>：
+                <input type="password" placeholder=" 密码">
+            </label>
+            <span id="pwd-notice">请输入2-6位字母数字下划线字符</span>
+            <span class="glyphicon glyphicon-ok-circle pwdOk" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-remove-circle pwdNg" aria-hidden="true"></span>
+
+            <label>
+
+                <button>
+                    <a href="/index.html">登录</a>
+                </button>
+                <br>
+                <br>
+                <a href="register.html" style="font-weight: 600">没有账号，注册账号?</a>
+                <br>
+                <br>
+            </label>
+
+
+        </form>
+
+
+
+    </div>
+
+</body>
+
+</html>
