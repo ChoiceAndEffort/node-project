@@ -1,8 +1,7 @@
 @charset "UTF-8";
 /*************   引用样式修改分割线***************** */
 .body {
-  background: url("/images/timg.jpg") no-repeat;
-  background-position: right bottom;
+  background: whitesmoke;
 }
 .body .search-bar {
   margin: 15px 0;

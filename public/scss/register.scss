@@ -9,7 +9,7 @@ body{
     align-items: center;
 }
 .log-box{
-      width: 450px;
+      width: 550px;
       height:auto;
       border:1px solid #ccc;
     border-radius: 10px;
@@ -27,8 +27,11 @@ body{
         }
         label{
             margin-left: 50px;
-            margin-top:40px;    
-            border:1px solid #ccc;      
+            margin-top:50px;    
+            // border:1px solid #ccc;      
+            display: block;
+            width: 300px;
+            
            
         };
         label:first-of-type{
@@ -49,6 +52,20 @@ body{
        label:nth-of-type(2){
         background: #ccc;
          }
+       label:nth-of-type(3){
+            background: #ccc;
+      
+         }
+       label:nth-of-type(4){
+             background: #ccc;
+             font-weight: 600;
+           }
+           label:nth-of-type(5){  
+            font-weight: 600;
+         }
+       label:nth-of-type(6){
+             font-weight: 600;
+           }
          #pwd-notice{
             font-size: 10px;
             font-weight: 600;
@@ -65,13 +82,14 @@ body{
          
             padding-left: 120px;
             border:none;
-            button{
+            .button2{
                 width: 100px;
                 border-radius: 3px;
                 border:none;
                 text-align: center;
                 height: 25px;
                 line-height: 25px;
+                background: #ccc;
             }
         }
     

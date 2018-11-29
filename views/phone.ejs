@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/phone.css">
 
 </head>
 
@@ -20,7 +21,45 @@
             <div class="lv-main">
                 <%- include("./comom/menu") %>
                     <div class="body">
-                        手机管理系统
+
+
+                        <button type="submit" class="btn btn-default">新增手机</button>
+                        <div class="box">
+                            放置手机的
+                        </div>
+
+
+
+                        <div class="tanchuk">
+                            <h2>新增</h2>
+
+                            <p>
+                                名&emsp;&emsp;&emsp;称：
+                                <input type="text" name="" placeholder="请输入手机名称">
+                            </p>
+
+                            <p>
+                                品&emsp;&emsp;&emsp;牌：
+
+                                <select name="" id="">
+                                    <option value=""></option>
+                                    <option value="">苹果</option>
+                                    <option value="">华为</option>
+                                    <option value="">小米</option>
+                                    <option value="">oppo</option>
+                                </select>
+                            </p>
+                            <p>
+                                官方指导价：
+                                <input type="text" name="" placeholder="请输入官方指导价">
+                            </p>
+                            <p>
+                                二手回收价：
+                                <input type="text" name="" placeholder="请输入回收指导价">
+                            </p>
+
+                        </div>
+
                     </div>
 
             </div>

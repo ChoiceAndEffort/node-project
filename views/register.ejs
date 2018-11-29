@@ -8,39 +8,60 @@
     <title>登陆</title>
     <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/register.css">
 </head>
 
 <body>
     <div class="log-box">
 
-        <form action="" method="">
+        <form action="/users/register" method="POST">
 
             <h2>用户注册</h2>
-            <label>
-                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>：
-                <input type="text" placeholder=" 用户名">
+            <label class="regis">
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                <input type="text" name="name" placeholder=" 用户名" name="" id="regis">
             </label>
             <span id="user-notice">请输入2-6位字符</span>
             <span class="glyphicon glyphicon-ok-circle userOk" aria-hidden="true"></span>
             <span class="glyphicon glyphicon-remove-circle userNg" aria-hidden="true"></span>
             <br>
             <label>
-                <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>：
-                <input type="password" placeholder=" 密码">
+                <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+                <input type="password" name="pwd" placeholder=" 密码" id="regispwd">
             </label>
             <span id="pwd-notice">请输入2-6位字母数字下划线字符</span>
             <span class="glyphicon glyphicon-ok-circle pwdOk" aria-hidden="true"></span>
             <span class="glyphicon glyphicon-remove-circle pwdNg" aria-hidden="true"></span>
+            <label>
+                <span>昵称</span>
+                <input type="text" name="nickname" placeholder=" 请输入昵称">
+            </label>
+            <label>
+                <span>年龄</span>
+                <input type="text" name="age" placeholder=" 请输入年龄">
+            </label>
+            <label>
+                <span style="color: white">性别：</span>
+                <input type="radio" name="sex" value="男">
+                <span style="color: white">男</span>
+                <input type="radio" name="sex" value="女">
+                <span style="color: white">女</span>
+            </label>
+            <label>
+                <span style="color: white">管理员：</span>
+                <input type="radio" name="isAdmin" value="是">
+                <span style="color: white">是</span>
+                <input type="radio" name="isAdmin" value="否">
+                <span style="color: white">否</span>
+            </label>
+
 
             <label>
 
-                <button>
-                    <a href="/">注册</a>
-                </button>
+                <input type="submit" value="注册" class="button2">
                 <br>
                 <br>
-                <a href="/" " style="font-weight: 600 ">已有账号，登陆账号?</a>
+                <a href="/login.html" " style="font-weight: 600 ">已有账号，登陆账号?</a>
                 <br>
                 <br>
             </label>
@@ -55,3 +76,5 @@
 </body>
 
 </html>
+<script src="js/jquery.min.js "></script>
+<script src="js/register.js "></script>
